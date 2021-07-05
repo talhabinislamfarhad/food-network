@@ -101,7 +101,7 @@ body{
 }
 .box {
     padding: 18px 18px 18px 18px;
-    box-shadow: 10px 10px 40px grey;
+    box-shadow: 10px 10px 25px grey;
     margin: 24px 35px 24px 35px;
     border-radius: 25px;
 }
@@ -121,7 +121,7 @@ body{
 /* visitors section */
 .visitor{
     margin: 30px 90px 80px 90px;
-    box-shadow: 10px 10px 40px grey;
+    box-shadow: 10px 10px 20px grey;
     border-radius: 25px;
 }
 .vititors{
