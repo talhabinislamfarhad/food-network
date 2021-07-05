@@ -2,13 +2,21 @@ body{
     font-family: 'Merriweather', serif;
     margin: 0;
 }
+ /* Social section */
+ .icons {
+    text-align: right;
+    padding-right: 60px;
+    padding-top: 30px;
+}
+.icon a {
+    padding-right: 15px;
+}
  /* Banner Section */
 .banner{
     display: flex;
 }
 .banner-half-width{
     width: 50%;
-    padding-top: 60px;
     padding-left: 78px;
 }
 .color{
@@ -40,7 +48,7 @@ body{
 /* About section */
 .about{
     display: flex;
-    background-image: url(/img/bg-1.jpg);
+    background-image: url(../img/bg-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
@@ -96,18 +104,18 @@ body{
     
 }
 .recipies-item img{
-    height: 250px;
+    height: 210px;
     width: 300px;
 }
 .box {
     padding: 18px 18px 18px 18px;
-    box-shadow: 10px 10px 40px grey;
+    box-shadow: 10px 10px 25px grey;
     margin: 24px 35px 24px 35px;
     border-radius: 25px;
 }
 .box h1{
     text-align: left;
-    padding-top: 0;
+    padding-top: 15px;
     color: #18191F;
     font-size: 23px;
     font-weight: 900;
@@ -117,11 +125,12 @@ body{
     padding: 0;
     color: #18191F;
     font-size: 13px;
+    line-height: 2;
 }
 /* visitors section */
 .visitor{
     margin: 30px 90px 80px 90px;
-    box-shadow: 10px 10px 40px grey;
+    box-shadow: 10px 10px 20px grey;
     border-radius: 25px;
 }
 .vititors{
@@ -133,6 +142,47 @@ body{
 .visitors-item h1 {
     font-weight: 900;font-size: 35px;
 }
+/* Contact section */
+.contact{
+    background: url(../img/bg.png) no-repeat center;
+    background-size: cover;
+    padding: 60px 0;
+}
+.contact h1{
+    text-align: center;
+    color: #6F6F6F;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+.contact-form{
+    width: 600px;
+    margin: auto;
+    padding: 0 10px;
+}
+.contact-form-text{
+    display: block;
+    width: 100%;
+    margin: 16px 0;
+    border: 0;
+    background: ##FFFFFF;
+    padding: 20px 40px;
+    color: #ddd;
+}
+textarea.contact-form-text{
+    height: 120px;
+}
+.contact-form-btn{
+    float: right;
+    border: 0;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    background-image:linear-gradient(#FE5231, #FB954B);
+}
+.contact-form-btn:hover{
+    background-image:linear-gradient(#FB954B, #FE5231);
+}
+  
  /* Footer section */
  .footer {
     background-color: #0B0D17;
