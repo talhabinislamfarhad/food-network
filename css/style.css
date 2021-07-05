@@ -40,7 +40,7 @@ body{
 /* About section */
 .about{
     display: flex;
-    background-image: url(/img/bg-1.jpg);
+    background-image: url(../img/bg-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
